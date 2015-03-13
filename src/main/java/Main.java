@@ -12,7 +12,7 @@ public class Main
 {
     public static void main(String[] args)
     {
-        get("/hello", (req, res) -> {
+        get("/", (req, res) -> {
             String html = "<!DOCTYPE html><head></head><body>";
             FizzBuzz fb = new FizzBuzz();
             for(int i = 1; i<101;i++)
